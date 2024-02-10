@@ -5,4 +5,8 @@
 //datos de ingreso
 const temperatura = parseFloat(prompt("Ingrese la temperatura en grados Celsius:"));
 const temperaturaKelvin = temperatura + 273.15;
-const temperaturaFahrenheit = (temperaturaKelvin - 32) * 5 / 9;
+const temperaturaFahrenheit = (temperatura * (9/5)) + 32;
+
+//datos de salida
+console.log(`La temperatura ${temperatura} grados Celsius corresponde a ${temperaturaKelvin} grados Kelvin.`);
+console.log(`La temperatura ${temperatura} grados Celsius corresponde a ${temperaturaFahrenheit} grados Fahrenheit.`);
