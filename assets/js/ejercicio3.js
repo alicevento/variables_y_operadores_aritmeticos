@@ -4,6 +4,8 @@
 
 //datos de ingreso
 const temperatura = parseFloat(prompt("Ingrese la temperatura en grados Celsius:"));
+
+//Proceso 
 const temperaturaKelvin = temperatura + 273.15;
 const temperaturaFahrenheit = (temperatura * (9/5)) + 32;
 
